@@ -1,0 +1,87 @@
+@import 'partials/reset';
+@import 'partials/base';
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu {
+    background-color: #D3D3D3;
+    margin: 0%;
+    padding: 1rem;
+}
+
+.menu > ul {
+    display: flex;
+    justify-content: left;
+}
+
+.menu > ul > li {
+    margin-right: 5rem;
+}
+
+.menu > ul > li > a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+.menu > ul > li > a:hover {
+    color: #00A0C6; 
+    text-decoration: none; 
+    cursor: pointer;  
+}
+
+p {
+    background-color: #DCDCDC;
+}
+
+h1 {
+    font-size: 200%
+}
+
+#content {
+    text-align: center;
+    margin: 5rem;
+}
+
+/*- Smartphones -*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+}
+
+/*- Smartphones (landscape) -*/
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+
+/*- Smartphones (portrait) -*/
+@media only screen and (max-width : 320px) {
+    /* Styles */
+}
+
+/*- Tablets -*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+}
+
+/*- Tablets (landscape) -*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+}
+
+/*- Tablets (portrait) -*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+}
+
+/*- Desktops and laptops -*/
+@media only screen and (min-width : 1224px) {
+    /* Styles */
+}
+
+/*- Large screens -*/
+@media only screen and (min-width : 1824px) {
+    /* Styles */
+}
